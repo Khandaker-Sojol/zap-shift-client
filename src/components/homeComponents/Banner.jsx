@@ -19,28 +19,16 @@ const Banner = () => {
         }}
         loop={true}
         speed={1000}
-        className="mySwiper h-[350px] md:h-[500px] lg:h-[650px]"
+        className="mySwiper"
       >
         <SwiperSlide>
-          <img
-            src={banner1}
-            alt=""
-            className="w-full h-full object-cover rounded-3xl"
-          />
+          <img src={banner1} alt="" className=" rounded-3xl" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={banner2}
-            alt=""
-            className="w-full h-full object-cover rounded-3xl"
-          />
+          <img src={banner2} alt="" className="rounded-3xl" />
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={banner3}
-            alt=""
-            className="w-full h-full object-cover rounded-3xl"
-          />
+          <img src={banner3} alt="" className="rounded-3xl" />
         </SwiperSlide>
       </Swiper>
     </div>

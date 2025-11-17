@@ -4,7 +4,7 @@ import footerLogo from "/footer-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-12 rounded-3xl mt-10">
+    <footer className="bg-black text-white md:py-12  md:rounded-3xl mt-10 px-4">
       <div className="max-w-7xl mx-auto text-center py-12">
         {/* LOGO & TEXT */}
         <div className="flex flex-col items-center gap-3">
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         {/* LINE */}
-        <div className="border-t border-dashed border-[#03464D] my-8"></div>
+        <div className="border-t-2 border-dashed  border-gray-700  my-8"></div>
 
         {/* MENU ITEMS */}
         <div className="flex flex-wrap gap-6 justify-center text-gray-300 text-sm md:text-base">
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         {/* LINE */}
-        <div className="border-b border-dashed border-[#03464D] my-8"></div>
+        <div className="border-b-2 border-dashed border-gray-700 my-8"></div>
 
         {/* SOCIAL ICONS */}
         <div className="flex justify-center gap-6">

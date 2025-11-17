@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { Link, NavLink, useNavigate } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "/logo.png";
 
 const Navbar = () => {
@@ -24,7 +23,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar shadow-sm bg-[#FFFFFF] py-5 md:px-12 rounded-2xl">
+    <div className="navbar shadow-sm bg-[#FFFFFF] md:py-5 md:px-12 md:rounded-2xl">
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -56,7 +55,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center">
-          <img src={logo} alt="logo" className="" />
+          <img src={logo} alt="logo" className="w-22 " />
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -66,12 +65,11 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-5">
         <div className="avatar tooltip tooltip-left gap-4">
-          <button className="text-secondary border border-gray-200 font-semibold px-6 md:px-10 py-3 rounded-lg transition cursor-pointer hover:bg-gray-100">
+          <button className="text-secondary border border-gray-200 font-semibold px-10 py-3 rounded-lg transition cursor-pointer hover:bg-gray-100">
             {" "}
-            Sign In
+            SignIn
           </button>
-          <button className="bg-primary text-[#1F1F1F] font-semibold px-6 md:px-10 py-3 rounded-lg transition hover:shadow cursor-pointer">
-            {" "}
+          <button className="bg-primary text-[#1F1F1F] font-semibold w-32 rounded-lg transition hover:shadow cursor-pointer">
             Be a rider
           </button>
         </div>
